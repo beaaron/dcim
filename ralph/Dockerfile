@@ -18,6 +18,6 @@ WORKDIR	$WEBSERVER_MOUNT
 
 EXPOSE	80/tcp
 
-CMD	npx http server --port 80
+CMD	npx http-server --port 80
 
 
